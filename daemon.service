@@ -10,7 +10,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=celgui
-ExecStart=/home/PSL_8/usbDetectServ.sh
+ExecStart=/home/daemon/usbDetectServ.sh
 
 [Install]
 WantedBy=multi-user.target
