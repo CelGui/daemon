@@ -9,7 +9,7 @@ This paragraph has some `inline codes`
   - $ sudo nano /etc/systemd/system/daemon.service
   
   
-- Once i have a unit file, I am ready to test the service.
+- Once I have a unit file, I am ready to test the service.
   - $ systemctl start daemon
 
 
