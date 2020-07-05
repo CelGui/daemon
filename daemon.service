@@ -1,0 +1,21 @@
+#The location where I created the service
+#GNU nano 2.9.3     /etc/systemd/system/daemon.service    
+[Unit]
+Description=usb Detect daemon Service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=celgui
+ExecStart=/home/PSL_8/usbDetectServ.sh
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+
+
